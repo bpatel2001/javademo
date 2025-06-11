@@ -12,5 +12,10 @@ public class DemoRestController {
         return "Hello World";
     }
 
+    @GetMapping("/carcompanies")
+    public String returnCarCompanies() {
+        return "Honda, Toyota, BMW, Ford";
+    }
+
 
 }
